@@ -1,13 +1,11 @@
-package com.test.logutilsample
+package com.test.mylibrary
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.test.logutil.LogUtil
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        LogUtil.logD("Hi Mayuresh Deshmukh ")
     }
 }
