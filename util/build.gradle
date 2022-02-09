@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-
 group = 'com.github.mayuresh21'
 version = '1.2'
 
@@ -50,7 +49,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = group
-                artifactId = "logutil"
+                artifactId = "util"
                 version = version
             }
         }

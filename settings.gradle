@@ -10,3 +10,4 @@ dependencyResolutionManagement {
 rootProject.name = "LogUtilSample"
 include ':app'
 include ':logutil'
+include ':util'
