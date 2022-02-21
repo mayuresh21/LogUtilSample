@@ -10,4 +10,8 @@ object LogUtil {
     fun logE(str:String){
         Log.e("Error=> ",""+str)
     }
+
+    fun logI(str:String){
+        Log.i("Info=> ",""+str)
+    }
 }
