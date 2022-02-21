@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         LogUtil.logD("Hi Mayuresh Deshmukh ")
         LogUtil.logD(""+DateHelper.currentDateAsStringddMMMyyyy)
         Utility.Util.printOwnerName()
+
     }
 }
