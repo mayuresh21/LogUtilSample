@@ -12,6 +12,6 @@ object LogUtil {
     }
 
     fun logI(str:String){
-        Log.i("Info=> ",""+str)
+        Log.i("Info=>  ",""+str)
     }
 }
